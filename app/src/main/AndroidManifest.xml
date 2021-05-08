@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="idv.tfp10104.activity_homework">
+    package="idv.tfp10104.williamwang">
 
-    <!-- 使用網路權限 --> <!-- 允許非加密連線 -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,7 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.Activity_homework">
+        android:theme="@style/Theme.TFP10104WilliamWang">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,13 +1,7 @@
 <resources>
-    <!--    <string name="app_name">Activity_homework</string>-->
-    <!--    <string name="textMyName1">Name</string>-->
-    <!--    <string name="textWorld">Hello World!</string>-->
-    <!--    <string name="textMoney">I love Money</string>-->
-    <string-array name="arraySpinner">
-        <item>app</item>
-        <item>app2</item>
-    </string-array>
+    <string name="app_name">TFP101 04 William Wang</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="textOpen">Open</string>
+    <string name="textClose">Close</string>
 </resources>

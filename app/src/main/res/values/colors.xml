@@ -7,5 +7,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorLightText">#FFDDDDDD</color>
 </resources>
+<!-- RGB 數位三原色 紅R 綠Ｇ 藍Ｂ -->
+<!-- layout檔取用 @color 顏色名 -->
