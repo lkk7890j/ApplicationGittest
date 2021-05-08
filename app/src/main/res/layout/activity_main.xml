@@ -1,39 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EFEFEC"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="name"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/textMoney"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        style="@style/styleTextView"-->
+    <!--        android:text="@string/textMoney"-->
+    <!--        tools:layout_editor_absoluteX="61dp"-->
+    <!--        tools:layout_editor_absoluteY="83dp" />-->
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="password"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/textMyName1"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:text="@string/textMyName1"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/helloWorldView"-->
+    <!--        tools:layout_editor_absoluteX="30dp" />-->
 
-    <Button
-        android:id="@+id/button"
+    <!--    <TextView-->
+    <!--        android:id="@+id/helloWorldView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        style="@style/styleTextView"-->
+    <!--        android:text="@string/textWorld"-->
+    <!--        android:textColor="@color/purple_500"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <SeekBar-->
+    <!--        android:id="@+id/seekBarR"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        tools:layout_editor_absoluteX="180dp"-->
+    <!--        tools:layout_editor_absoluteY="65dp" />-->
+
+    <!--    <SeekBar-->
+    <!--        android:id="@+id/seekBarG"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/seekBarR"-->
+    <!--        tools:layout_editor_absoluteX="180dp" />-->
+
+    <!--    <SeekBar-->
+    <!--        android:id="@+id/seekBarB"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/seekBarG"-->
+    <!--        tools:layout_editor_absoluteX="180dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewBar"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        style="@style/styleTextView"-->
+    <!--        android:text="TextView"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/seekBarB"-->
+    <!--        tools:layout_editor_absoluteX="171dp" />-->
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/spinner"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:entries="@array/spinner" />-->
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="idv.tfp10104.activity_homework.BlankFragment"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="wrap_content" />
+</FrameLayout>
