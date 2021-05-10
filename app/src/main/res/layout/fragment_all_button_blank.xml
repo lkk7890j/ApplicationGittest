@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".All_buttonFragment">
+
+    <TextView
+        android:id="@+id/bttextView"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBoxJavaSe"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="JavaSe" />
+
+        <CheckBox
+            android:id="@+id/checkBoxMysql"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:text="Mysql" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="77dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:text="ToggleButton" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textOff="On"
+            android:textOn="Off"
+            app:showText="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:text="switch" />
+
+    </LinearLayout>
+
+</LinearLayout>

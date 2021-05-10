@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/firstfragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/imageButton_Fragment"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="imageButton"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/AllButton_Fragment"
+        android:icon="@android:drawable/btn_radio"
+        android:title="All Button" />
+    <item
+        android:id="@+id/Login_Fragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Login" />
+    <item
+        android:id="@+id/barView_Fragment"
+        android:icon="@android:drawable/editbox_background_normal"
+        android:title="Bar View" />
+
+
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/firstfragment">
+
+    <fragment
+        android:id="@+id/firstfragment"
+        android:name="idv.tfp10104.williamwang.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/imageButton_Fragment"
+        android:name="idv.tfp10104.williamwang.imageButton_Fragment"
+        android:label="fragment_image_button"
+        tools:layout="@layout/fragment_imagebutton" />
+    <fragment
+        android:id="@+id/AllButton_Fragment"
+        android:name="idv.tfp10104.williamwang.All_buttonFragment"
+        android:label="fragment_all_button_blank"
+        tools:layout="@layout/fragment_all_button_blank" />
+    <fragment
+        android:id="@+id/Login_Fragment"
+        android:name="idv.tfp10104.williamwang.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_Login_Fragment_to_result_Fragment"
+            app:destination="@id/result_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/result_Fragment"
+        android:name="idv.tfp10104.williamwang.Result_Fragment"
+        android:label="fragment_result_"
+        tools:layout="@layout/fragment_result_" />
+    <fragment
+        android:id="@+id/barView_Fragment"
+        android:name="idv.tfp10104.williamwang.BarView_Fragment"
+        android:label="fragment_bar_view_"
+        tools:layout="@layout/fragment_bar_view_" />
+
+</navigation>

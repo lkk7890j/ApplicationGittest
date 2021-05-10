@@ -1,4 +1,4 @@
-package idv.tfp10104.applicatiocream;
+package idv.tfp10104.williamwang;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("idv.tfp10104.applicatiocream", appContext.getPackageName());
+        assertEquals("idv.tfp10104.williamwang", appContext.getPackageName());
     }
 }
